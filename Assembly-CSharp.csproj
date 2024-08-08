@@ -45,14 +45,27 @@
     <Analyzer Include="/home/bakudas/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scenes/FactoryMethod/scripts/FactoryMethod.cs" />
-    <Compile Include="Assets/Scenes/State/Scripts/Run.cs" />
-    <Compile Include="Assets/Scenes/State/Scripts/State.cs" />
-    <Compile Include="Assets/Scenes/State/Scripts/Idle.cs" />
-    <Compile Include="Assets/Scenes/FactoryMethod/scripts/IPersonagem.cs" />
-    <Compile Include="Assets/Scenes/State/Scripts/Contexto.cs" />
-    <Compile Include="Assets/Scenes/FactoryMethod/scripts/LiuKang.cs" />
-    <Compile Include="Assets/Scenes/State/Scripts/StateManager.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/RevestimentoBaseZerg.cs" />
+    <Compile Include="Assets/State/Scripts/Contexto.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/IEnergia.cs" />
+    <Compile Include="Assets/State/Scripts/State.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/FabricaBaseZerg.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/EnegiaBaseProtoss.cs" />
+    <Compile Include="Assets/State/Scripts/StateManager.cs" />
+    <Compile Include="Assets/FactoryMethod/scripts/LiuKang.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/IFabricaBases.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/FabricaBaseProtoss.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/EnegiaBaseTerran.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/RevestimentoBaseTerran.cs" />
+    <Compile Include="Assets/State/Scripts/Idle.cs" />
+    <Compile Include="Assets/FactoryMethod/scripts/FactoryMethod.cs" />
+    <Compile Include="Assets/State/Scripts/Run.cs" />
+    <Compile Include="Assets/FactoryMethod/scripts/IPersonagem.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/RevestimentoBaseProtoss.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/AbstractFacrtoryManager.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/FabricaBaseTerran.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/IRevestimento.cs" />
+    <Compile Include="Assets/AbstractFactory/Scripts/EnegiaBaseZerg.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/home/bakudas/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
