@@ -13,7 +13,7 @@ namespace Builder.Scripts
             
             // Criando um soldado das Forças Especiais
             builderSoldado = new BuilderFocasEspeciais();
-            exercito.BuildSoldado(builderSoldado);
+            exercito.BuildSoldado(builderSoldado);  
             soldado = builderSoldado.GetSoldado();
             Debug.Log("Soldado criado com as caracteristicas: " + soldado.Arma + ", " + soldado.Transporte + ", " +
                       soldado.Foco);
