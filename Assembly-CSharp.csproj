@@ -45,12 +45,14 @@
     <Analyzer Include="/home/bakudas/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Adapter/Scripts/IAcao.cs" />
     <Compile Include="Assets/Singleton/Scripts/Singleton.cs" />
     <Compile Include="Assets/Builder/Scripts/BuilderSoldado.cs" />
     <Compile Include="Assets/Builder/Scripts/SoldadoForcasEspeciais.cs" />
     <Compile Include="Assets/Prototype/Scripts/NuvemConcrete.cs" />
     <Compile Include="Assets/Singleton/Scripts/Manager.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/RevestimentoBaseZerg.cs" />
+    <Compile Include="Assets/Adapter/Scripts/AdapterPlane.cs" />
     <Compile Include="Assets/State/Scripts/Contexto.cs" />
     <Compile Include="Assets/Prototype/Scripts/NuvemPrototype.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/IEnergia.cs" />
@@ -58,6 +60,7 @@
     <Compile Include="Assets/AbstractFactory/Scripts/FabricaBaseZerg.cs" />
     <Compile Include="Assets/Builder/Scripts/Exercito.cs" />
     <Compile Include="Assets/Prototype/Scripts/PrototypeManager.cs" />
+    <Compile Include="Assets/Adapter/Scripts/Player.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/EnegiaBaseProtoss.cs" />
     <Compile Include="Assets/State/Scripts/StateManager.cs" />
     <Compile Include="Assets/FactoryMethod/scripts/LiuKang.cs" />
@@ -73,7 +76,9 @@
     <Compile Include="Assets/Prototype/Scripts/NuvemManager.cs" />
     <Compile Include="Assets/FactoryMethod/scripts/IPersonagem.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/RevestimentoBaseProtoss.cs" />
+    <Compile Include="Assets/Adapter/Scripts/AdapterManager.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/AbstractFacrtoryManager.cs" />
+    <Compile Include="Assets/Adapter/Scripts/Plane.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/FabricaBaseTerran.cs" />
     <Compile Include="Assets/Builder/Scripts/BuilderInfantariaLeve.cs" />
     <Compile Include="Assets/AbstractFactory/Scripts/IRevestimento.cs" />
